@@ -4,57 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tacos "El jefe"</title>
 </head>
 <body>
-    <header>
-        <h1>Tacos "El jefe", desde 2022</h1>
+       
+    <header id="header">
+        <div class="ancho">
+            <div class="logo">
+                <img src="Tacos El jefe.png" alt="logo tacos el jefe">
+            </div>
+            
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#ubicacion">Ubicaciones</a></li>
+                        <li><a href="#pedidos">Pide ya!!</a></li>
+                    </ul>
+                </nav>
+        </div>
     </header>
 
-    <section>
-        <img src="https://github.com/SabinoAC/practica-taqueria-html/blob/gh-pages/Tacos%20El%20jefe.png" alt="logo tacos el jefe">
+    <section id="encabezado">
+        <h1>Tacos "El jefe", desde 2022</h1>
+    </section>
+    
 
+    <!--menu-->
+    <section id="menu">
         <h2>Menú</h2>
-        <h3>Tacos grandes</h3>
-        <p>Todos incluyen nopales y cebollas</p>
-        <ul>
-            <li>Bisteck .............. $30</li>
-            <li>Chorizo .............. $30</li>
-            <li>Chuleta .............. $30</li>
-            <li>Pastor  .............. $30</li>
-            <li>Campechanos .......... $30</li>
-        </ul>
+        <div class="carta">
+            <h3>Tacos grandes</h3>
+            <p>Todos incluyen nopales y cebollas</p>
+            <ul>
+                <li>Bisteck .............. $30</li>
+                <li>Chorizo .............. $30</li>
+                <li>Chuleta .............. $30</li>
+                <li>Pastor  .............. $30</li>
+                <li>Campechanos .......... $30</li>
+            </ul>
+        </div>
 
-        <h3>Tacos pequeños</h3>
-        <p>Con cilantro y cebolla</p>
-        <ul>
-            <li>Bisteck .............. $15</li>
-            <li>Chorizo .............. $15</li>
-            <li>Chuleta .............. $15</li>
-            <li>Pastor  .............. $15</li>
-            <li>Campechanos .......... $15</li>
-        </ul>
+        <div class="carta">
+            <h3>Tacos pequeños</h3>
+            <p>Con cilantro y cebolla</p>
+            <ul>
+                <dt>Bisteck .............. $15</dt>
+                <dt>Chorizo .............. $15</dt>
+                <dt>Chuleta .............. $15</dt>
+                <dt>Pastor  .............. $15</dt>
+                <dt>Campechanos .......... $15</dt>
+            </ul>
+        </div>
 
-        <h3>Especiales</h3>
-        <p>Haz tu combo con refresco por 10$ más</p>
-        <dl>
-            <dt><b>Labrador</b> ................ 40$</dt>
-            <dd>- Tortilla de maiz con pollo asado</dd>
-            <dt><b>Pastor Aleman</b> ........... 40$</dt>
-            <dd>- Tortilla de harina con carne de res y queso</dd>
-            <dt><b>Pug</b> ..................... 40$</dt>
-            <dd>- Tortilla de maiz con chuleta</dd>
-            <dt><b>Adoptado</b> ................ 40$</dt>
-            <dd>- Tortilla de maiz con pastor</dd>
-        </dl>
+        <div>
+            <h3>Especiales</h3>
+            <p>Haz tu combo con refresco por 10$ más</p>
+            <dl>
+                <dt><b>Labrador</b> ................ 40$</dt>
+                <dd>- Tortilla de maiz con pollo asado</dd>
+                <dt><b>Pastor Aleman</b> ........... 40$</dt>
+                <dd>- Tortilla de harina con carne de res y queso</dd>
+                <dt><b>Pug</b> ..................... 40$</dt>
+                <dd>- Tortilla de maiz con chuleta</dd>
+                <dt><b>Adoptado</b> ................ 40$</dt>
+                <dd>- Tortilla de maiz con pastor</dd>
+            </dl>
+        </div>
     </section>
 
     <hr>
-
-    <section>
+    <!--ubicacion-->
+    <section id="ubicacion">
         <h2>Ubicación</h2>
         <h3>Sucursales</h3>
-        <table>
+        <table class="tablaUbicacion">
             <tr>
                 <th>Nombre</th>
                 <th>Ubicación</th>
@@ -80,7 +104,8 @@
 
     <hr>
 
-    <section>
+    <!--pedidos-->
+    <section id="pedidos">
         <h2>Pedidos</h2>
         <h3>Haz tu perropedido aquí</h3>
 
@@ -130,6 +155,11 @@
         <br><br>
         </form>
     </section>
+    <footer>
+        <div class="footer">
+            <p>Creado por Mino</p>
+        </div>
+    </footer>
     
     
 </body>
