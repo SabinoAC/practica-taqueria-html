@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 90px;
+    background-color:#4b1d33;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a { 
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(156, 173, 179);
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    /*background-color: beige;*/
+    margin: auto;
+    
+}
+header {
+    width: 100%;
+    background-color: #4b1d33;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    position: fixed;
+    
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: red;*/
+    float: left;
+}
+img{
+    
+    max-width: 100%;
+    max-height: 100%;
+    /*background-color: aqua;*/
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    /*background: olive;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+   display: inline; 
+}
+#encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    background-image:linear-gradient(
+        0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    )
+    ,url("https://foodandtravel.mx/wp-content/uploads/2017/02/Tacos-tradicionales.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#encabezado h1{
+    font-size: 10em;
+}
+#menu{
+    background-color: #ffffff;
+    text-align: center;
+}
+#ubicacion{
+    text-align: center;
+    background-color: #ffffff;
+}
+.tablaUbicacion{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#pedidos{
+    text-align: center;
+    background-color: #ffffff;
+}
+button{
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: rgb(255, 255, 255);
+    background-color: #4b1d33;
+}
+footer{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: azure;
+    font-size: 2.0em;    
+    margin-block-end: 1em;
+}
